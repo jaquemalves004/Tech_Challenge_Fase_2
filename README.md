@@ -33,6 +33,24 @@ O projeto busca responder perguntas como:
 
 ![Arquitetura](images/arquitetura.PNG)
 
+```text
+Google Cloud Platform
+         │
+         ▼
+ BigQuery
+         │
+         ▼
+ Bronze
+         │
+         ▼
+ Silver
+         │
+         ▼
+ Gold
+         │
+         ▼
+ Dashboard
+```
 ---
 
 ## Tecnologias Utilizadas
@@ -65,30 +83,54 @@ Consulta realizada via BigQuery.
 # Estrutura do Projeto
 
 ```text
-TechChallenge_Fase2/
+Tech-Challenge-Fase-2/
 
-│
 ├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
 │
 ├── docs/
-│   └── Documentacao_Tecnica.md
+│   ├── Documentacao_Tecnica.md
+│   ├── Arquitetura.md
+│   ├── Contrato_Silver.md
+│   ├── Regras_Data_Quality.md
+│   ├── Data_Marts_Gold.md
+│   └── Dashboard_Analytics.md
 │
-├── notebooks/
+├── notebook/
 │   ├── 01_Bronze.ipynb
 │   ├── 02_Silver.ipynb
 │   ├── 03_Gold.ipynb
+│   ├── 04_Data_Quality.ipynb
 │   └── 06_Dashboard_Analytics.ipynb
 │
-├── data/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+├── src/
+│   ├── silver_transformations.py
+│   ├── data_quality.py
+│   ├── gold_transformations.py
+│   └── dashboard_utils.py
+│
+├── sql/
+│   ├── municipio.sql
+│   ├── uf.sql
+│   ├── meta_municipio.sql
+│   ├── meta_uf.sql
+│   ├── meta_brasil.sql
+│   └── alunos_agregados.sql
+│
+├── Data/
+│   ├── Bronze/.gitkeep
+│   ├── Silver/.gitkeep
+│   └── Gold/.gitkeep
 │
 ├── outputs/
-│   ├── dashboard/
-│   └── kpis_executivos/
+│   ├── Dashboard/.gitkeep
+│   └── Data_Quality/.gitkeep
 │
 └── images/
+    └── Arquitetura.png
+
 ```
 
 ---
@@ -304,4 +346,4 @@ O projeto possibilita:
 
 Jaqueline Medeiros
 
-Projeto desenvolvido para o Tech Challenge – FIAP Pós-Graduação em Data Analytics.
+Projeto desenvolvido para a 2º fase do Tech Challenge – FIAP Pós-Graduação em Data Analytics.
