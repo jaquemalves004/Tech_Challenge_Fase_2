@@ -8,8 +8,27 @@ Data/Bronze/*
 Data/Silver/*
 Data/Gold/*
 
+Outputs/
+*.parquet
+*.csv
+
+Outputs/Data_Quality/*
+!Outputs/Data_Quality/.gitkeep
+
+Outputs/Dashboard/*
+!Outputs/Dashboard/.gitkeep
+
+*.html
+*.csv
+
+*.json
+.env
+credentials/
+service-account*.json
+
 Outputs/Dashboard/*
 
 !Data/Bronze/.gitkeep
 !Data/Silver/.gitkeep
 !Data/Gold/.gitkeep
+
