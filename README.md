@@ -31,21 +31,7 @@ O projeto busca responder perguntas como:
 
 ## Arquitetura da Solução
 
-```text
-Base dos Dados (BigQuery)
-           │
-           ▼
-      Bronze Layer
-           │
-           ▼
-      Silver Layer
-           │
-           ▼
-       Gold Layer
-           │
-           ▼
-     Dashboard Analytics
-```
+![Arquitetura](images/arquitetura.PNG)
 
 ---
 
