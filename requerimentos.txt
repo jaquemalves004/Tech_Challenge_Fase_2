@@ -1,1 +1,7 @@
-
+Pyspark
+Pandas
+numpy
+pyarrow
+plotly
+google-cloud-bigquery
+jupyter
