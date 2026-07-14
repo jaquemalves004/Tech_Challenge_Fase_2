@@ -1,1 +1,15 @@
+_pycache_/
 
+*.pyc
+
+.ipynb_checkpoints/
+
+Data/Bronze/*
+Data/Silver/*
+Data/Gold/*
+
+Outputs/Dashboard/*
+
+!Data/Bronze/.gitkeep
+!Data/Silver/.gitkeep
+!Data/Gold/.gitkeep
