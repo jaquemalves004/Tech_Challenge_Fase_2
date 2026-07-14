@@ -342,6 +342,20 @@ O projeto possibilita:
 
 ---
 
+## Apresentação Executiva
+
+### Vídeo
+
+O vídeo de apresentação pode ser acessado em:
+
+https://drive.google.com/file/d/1EDfcJusJTKDb0lr0mjWq63u-Bz9S9qUX/view?usp=drive_link
+
+### Material da Apresentação
+
+O PowerPoint utilizado está disponível em:
+
+presentation/TechChallenge_Fase2_Apresentacao.pptx
+
 # Autora
 
 Jaqueline Medeiros
